@@ -24,16 +24,16 @@ module.exports = {
         // —— You can add unlimited number of games, or keep one only
 		games: [{
             // — 'type' can be PLAYING STREAMING LISTENING WATCHING COMPETING, you need to provide Twitch URL for STREAMING
-		    type: "WATCHING",
-		    name: "You",
-		    url: ""
-		}, {
+            type: "WATCHING",
+            name: "You",
+            url: ""
+        }, {
             type: "PLAYING",
-		    name: "Epic Seven",
-		    url: ""
+            name: "Epic Seven",
+            url: ""
         }],
 
-        // — Status will change every 15 seconds
+        // — Status will change every 15 seconds
 		interval: 15
 	},
 
@@ -47,9 +47,9 @@ module.exports = {
 // —— Save events, messages, etc in database
     logger : true,
 
-// -- Modules
+// —— Modules
     module : {
         xp : true
     }
 
-}
+};
